@@ -8,6 +8,9 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+                "${fileDirname}/zylib.c",
+                "${fileDirname}/dynarray.c",
+                "${fileDirname}/zyrandom.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
